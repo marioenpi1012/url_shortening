@@ -66,7 +66,7 @@ Body{
         .signUpLinks{
             @extend .links;
             li #signupBtn{
-                background: $Cyan-color;
+                background-color: $Cyan-color;
                 color: #ffff;
                 padding: 10px 20px;
                 border: none;
