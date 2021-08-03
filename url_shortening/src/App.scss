@@ -1,5 +1,5 @@
 // Primary Colors
-$Cyan-color: hsl(180,66%, 49%);
+$Cyan-color: rgb(42,207, 207);
 $DarkViolet-color:hsl(257,27%,26%);
 
 // Secondary Colors
@@ -580,6 +580,9 @@ Body{
             background-image: url('./images/bg-shorten-mobile.svg');
             flex-direction: column;
             height: auto;
+            .error{
+                bottom: 0;
+            }
             .loading{
                 top:-4%;
                 left:33%;
