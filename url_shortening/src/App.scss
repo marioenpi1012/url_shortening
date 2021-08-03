@@ -183,6 +183,7 @@ Body{
             }
         .inputBtn {
             position: relative;
+            text-align: center;
             input{ 
             padding: 20px 60px;
             color: #ffff;
@@ -197,7 +198,6 @@ Body{
             display:none;
             width:80px;
             height: 80px;
-            pointer-events: none;
             &:after{
                 content: '';
                 display: block;
@@ -580,6 +580,10 @@ Body{
             background-image: url('./images/bg-shorten-mobile.svg');
             flex-direction: column;
             height: auto;
+            .loading{
+                top:-4%;
+                left:33%;
+            }
             input{
                 width: 90%;
                 margin: 15px 0;

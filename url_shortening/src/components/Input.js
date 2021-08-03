@@ -34,10 +34,11 @@ const Input = () =>{
     const updateData = (e) =>{
         setData(e.target.value)
         setEmpty(false)
+        setError(false)
     }
     const submit = (e) =>{
         e.preventDefault()
-        console.log('Submitt ed')
+        console.log('Submitted')
         if(data){
             setUrl(data)
             console.log(data)
